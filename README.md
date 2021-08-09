@@ -13,7 +13,7 @@
 
 ## About
 
-This package contains a Robotic Process Automation (RPA) Studio which enables you to build and manage software Bots which mimicks humans actions interacting with digital systems and software. Just like humans, RPA robots can do things like extracting details on a screen, complete the mpuse clicks or keystrokes, navigate through systems, identify and extract data from desktop or web applications, and perform varius other actions. Once trained RPA Bots can do these tasks much faster and consistently than humans
+This package contains a Robotic Process Automation (RPA) Studio which enables you to build and manage software Bots which mimicks humans actions interacting with digital systems and software. Just like humans, RPA robots can do things like extracting details on a screen, complete the mouse clicks or keystrokes, navigate through systems, identify and extract data from desktop or web applications, and perform varius other actions. Once trained RPA Bots can do these tasks much faster and consistently than humans
 
 The lead developer is Ray Smith. The maintainer is Zdenko Podobny.
 For a list of contributors see [AUTHORS](https://github.com/tesseract-ocr/tesseract/blob/master/AUTHORS)
