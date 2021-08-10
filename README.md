@@ -15,7 +15,7 @@ Once opened you can run the following startup file to launch the application:
 
     AiBotsRPA
 
-Ai-Bots Studio require .NET 4.5 or above to run*
+Ai-Bots Studio require .NET 4.5 or above to run**
 
 
 ## Examples
