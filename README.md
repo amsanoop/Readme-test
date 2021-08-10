@@ -7,16 +7,9 @@
 
 This package contains a Robotic Process Automation (RPA) Studio which enables you to build and manage software Bots which mimicks humans actions interacting with digital systems and software. Just like humans, RPA robots can do things like extracting details on a screen, complete the mouse clicks or keystrokes, navigate through systems, identify and extract data from desktop or web applications, and perform varius other actions. Once trained RPA Bots can do these tasks much faster and consistently than humans
 
-## Installing Tesseract
+## Running Aibots Studio
 
-You can either [Install Tesseract via pre-built binary package](https://tesseract-ocr.github.io/tessdoc/Home.html)
-or [build it from source](https://tesseract-ocr.github.io/tessdoc/Compiling.html).
-
-C++17 support is required for building.
-
-## Running Tesseract
-
-Basic **[command line usage](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html)**:
+You can run the Ai-Bots Studio by opening the source code in a compatible IDE, preferably Microsoft Visual Studio(https://visualstudio.microsoft.com/downloads/)**:
 
     tesseract imagename outputbase [-l lang] [--oem ocrenginemode] [--psm pagesegmode] [configfiles...]
 
