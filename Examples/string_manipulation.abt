@@ -1,0 +1,122 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="AibotsRPA.Workflow" sap2010:WorkflowViewState.IdRef="AibotsRPA.Workflow_1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:c="clr-namespace:Core_Activities;assembly=Core_Activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:s="clr-namespace:String_Operation;assembly=String_Operation"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="My Program" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart.Variables>
+      <Variable x:TypeArguments="x:String" Name="output" />
+      <Variable x:TypeArguments="x:Int32" Name="intoutput" />
+    </Flowchart.Variables>
+    <Flowchart.StartNode>
+      <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_11">
+        <Sequence DisplayName="Identifying length of a string" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <c:InputBox Result="{x:Null}" Text="{x:Null}" sap2010:WorkflowViewState.IdRef="InputBox_2" Messaage="Please enter a word to find its length" Title="Enter a word" outValue="[output]" />
+          <s:String_Length Result="{x:Null}" sap2010:WorkflowViewState.IdRef="String_Length_1" Output_String="[intoutput]" Text="[output]" />
+          <c:MessageBox BtnResVal="{x:Null}" Result="{x:Null}" tit="{x:Null}" sap2010:WorkflowViewState.IdRef="MessageBox_3" bdt="Button1" bt="Ok" ic="None" msg="[&quot;The lenght of  &quot; + output + &quot; is : &quot; + intoutput.tostring]" />
+        </Sequence>
+        <FlowStep.Next>
+          <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_12">
+            <Sequence DisplayName="Comparing Two string to see if they are matching" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="secondout" />
+                <Variable x:TypeArguments="x:Boolean" Name="result" />
+              </Sequence.Variables>
+              <c:InputBox Result="{x:Null}" Text="{x:Null}" sap2010:WorkflowViewState.IdRef="InputBox_3" Messaage="Please enter first word" Title="Enter Word One" outValue="[output]" />
+              <c:InputBox Result="{x:Null}" Text="{x:Null}" sap2010:WorkflowViewState.IdRef="InputBox_4" Messaage="Please enter second word" Title="Enter Word Two" outValue="[secondout]" />
+              <s:String_Compare Case="False" sap2010:WorkflowViewState.IdRef="String_Compare_1" Result="[result]" Text1="[output.tolower]" Text2="[secondout.tolower]" />
+              <If Condition="[result = true]" sap2010:WorkflowViewState.IdRef="If_1">
+                <If.Then>
+                  <c:MessageBox BtnResVal="{x:Null}" Result="{x:Null}" sap2010:WorkflowViewState.IdRef="MessageBox_4" bdt="Button1" bt="Ok" ic="None" msg="Words are matching" tit="Result" />
+                </If.Then>
+                <If.Else>
+                  <c:MessageBox BtnResVal="{x:Null}" Result="{x:Null}" sap2010:WorkflowViewState.IdRef="MessageBox_5" bdt="Button1" bt="Ok" ic="None" msg="Words are not matching" tit="Result" />
+                </If.Else>
+              </If>
+            </Sequence>
+          </FlowStep>
+        </FlowStep.Next>
+      </FlowStep>
+    </Flowchart.StartNode>
+    <x:Reference>__ReferenceID0</x:Reference>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <sads:DebugSymbol.Symbol>dzdDOlxVc2Vyc1xhbXNhblxEZXNrdG9wXEV4YW1wbGVzXHN0cmluZ19tYW5pcHVsYXRpb24uYWJ0IBwDQg8CAQEjCScUAgEdKg06GAIBAiQLJMMBAgEnJQsljgECASImCyb3AQIBHi8PL7oBAgEYMA8wvgECARMxDzGqAQIBDDIPORQCAQMkbySXAQIBKyS2ASTAAQIBKSSeASSsAQIBKCWBASWLAQIBJSVuJXsCASMmogEm9AECAR8vcy+MAQIBHC+tAS+3AQIBGi+TAS+jAQIBGTBzMI0BAgEXMK4BMLsBAgEVMJQBMKQBAgEUMXkxiwECARExaDFyAgEPMZIBMacBAgENMh0yLgIBBDQTNL8BAgEJNxM3wwECAQY0tAE0vAECAQs0mwE0rwECAQo3uAE3wAECAQg3mwE3swECAQc=</sads:DebugSymbol.Symbol>
+  </Flowchart>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="InputBox_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="String_Length_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="MessageBox_3" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="200,52">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="InputBox_3" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="InputBox_4" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="String_Compare_1" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="MessageBox_4" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="MessageBox_5" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="464,210" />
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="200,52">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_12">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,184.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,52</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_11">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,104.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,52</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,155.5 300,184.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="614,636">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+            <av:Size x:Key="ShapeSize">60,75</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,104.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="AibotsRPA.Workflow_1" sap:VirtualizedContainerService.HintSize="654,716" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>
