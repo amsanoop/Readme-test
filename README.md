@@ -9,7 +9,7 @@ This package contains a Robotic Process Automation (RPA) Studio which enables yo
 
 ## Running Aibots Studio
 
-You can run the Ai-Bots Studio by opening the [source code](https://github.com/aibotstechrepo/AiBotsStudio) in a compatible IDE, preferably Microsoft Visual Studio(https://visualstudio.microsoft.com/downloads/)**:
+You can run the Ai-Bots Studio by opening the [source code](https://github.com/aibotstechrepo/AiBotsStudio) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
 
     tesseract imagename outputbase [-l lang] [--oem ocrenginemode] [--psm pagesegmode] [configfiles...]
 
