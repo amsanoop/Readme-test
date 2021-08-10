@@ -30,17 +30,6 @@ Ai-Bots Studio require .NET 4.5 or above to run*
 
 ## Support
 
-Before you submit an issue, please review **[the guidelines for this repository](https://github.com/tesseract-ocr/tesseract/blob/master/CONTRIBUTING.md)**.
-
-For support, first read the [documentation](https://tesseract-ocr.github.io/tessdoc/),
-particularly the [FAQ](https://tesseract-ocr.github.io/tessdoc/FAQ.html) to see if your problem is addressed there.
-If not, search the [Tesseract user forum](https://groups.google.com/g/tesseract-ocr), the [Tesseract developer forum](https://groups.google.com/g/tesseract-dev) and [past issues](https://github.com/tesseract-ocr/tesseract/issues), and if you still can't find what you need, ask for support in the mailing-lists.
-
-Mailing-lists:
-* [tesseract-ocr](https://groups.google.com/g/tesseract-ocr) - For tesseract users.
-* [tesseract-dev](https://groups.google.com/g/tesseract-dev) - For tesseract developers.
-
-Please report an issue only for a **bug**, not for asking questions.
 
 ## License
 
@@ -58,19 +47,9 @@ Please report an issue only for a **bug**, not for asking questions.
 
 **NOTE**: This software depends on other packages that may be licensed under different open source licenses.
 
-Tesseract uses [Leptonica library](http://leptonica.com/) which essentially
-uses a [BSD 2-clause license](http://leptonica.com/about-the-license.html).
-
-## Dependencies
-
-Tesseract uses [Leptonica library](https://github.com/DanBloomberg/leptonica)
-for opening input images (e.g. not documents like pdf).
-It is suggested to use leptonica with built-in support for [zlib](https://zlib.net),
-[png](https://sourceforge.net/projects/libpng) and
-[tiff](http://www.simplesystems.org/libtiff) (for multipage tiff).
 
 ## Latest Version of README
 
 For the latest online version of the README.md see:
 
-https://github.com/tesseract-ocr/tesseract/blob/master/README.md
+https://github.com/aibotstechrepo/AiBotsStudio/blob/main/README.md
