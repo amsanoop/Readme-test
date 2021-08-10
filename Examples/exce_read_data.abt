@@ -31,7 +31,7 @@
     </Flowchart.Variables>
     <Flowchart.StartNode>
       <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_3">
-        <e:Excel_Open Filepath="C:\Users\amsan\Desktop\Excel_Read_Data.xlsx" sap2010:WorkflowViewState.IdRef="Excel_Open_1" Sheet="1" SheetName="Sheet1" vis="True" />
+        <e:Excel_Open Filepath="please update the filepath here to launch the excel" sap2010:WorkflowViewState.IdRef="Excel_Open_1" Sheet="1" SheetName="Sheet1" vis="True" />
         <FlowStep.Next>
           <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_5">
             <e:ExcelRead Data="{x:Null}" Error="{x:Null}" From="{x:Null}" Range="{x:Null}" Table="{x:Null}" To="{x:Null}" Cell="True" Column="1" sap2010:WorkflowViewState.IdRef="ExcelRead_1" Row="1" SheetName="Sheet1" SheetNumber="1" Value="[output]" />
@@ -47,7 +47,7 @@
     <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
     <x:Reference>__ReferenceID2</x:Reference>
-    <sads:DebugSymbol.Symbol>dzJDOlxVc2Vyc1xhbXNhblxEZXNrdG9wXEV4YW1wbGVzXGV4Y2VfcmVhZF9kYXRhLmFidA0cAzMPAgEBIgkipwECAQwlDSX+AQIBBSgRKOkBAgECIoMBIoYBAgEPIpEBIpkBAgEOIiAiTQIBDSXxASX7AQIBCiXEASXHAQIBCSWOASWRAQIBCCXnASXqAQIBByXSASXaAQIBBiioASjmAQIBAw==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dzJDOlxVc2Vyc1xhbXNhblxEZXNrdG9wXEV4YW1wbGVzXGV4Y2VfcmVhZF9kYXRhLmFidA0cAzMPAgEBIgkirwECAQwlDSX+AQIBBSgRKOkBAgECIosBIo4BAgEPIpkBIqEBAgEOIiAiVQIBDSXxASX7AQIBCiXEASXHAQIBCSWOASWRAQIBCCXnASXqAQIBByXSASXaAQIBBiioASjmAQIBAw==</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
