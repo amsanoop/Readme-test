@@ -11,11 +11,10 @@ This package contains a Robotic Process Automation (RPA) Studio which enables yo
 
 You can run the Ai-Bots Studio by opening the [source code](https://github.com/aibotstechrepo/AiBotsStudio) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
 
-    tesseract imagename outputbase [-l lang] [--oem ocrenginemode] [--psm pagesegmode] [configfiles...]
+Once installed you can run the following file to launch the application:
 
-For more information about the various command line options use `tesseract --help` or `man tesseract`.
+    AiBotsRPA
 
-Examples can be found in the [documentation](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
 
 ## For developers
 
