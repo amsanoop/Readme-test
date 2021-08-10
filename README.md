@@ -11,9 +11,11 @@ This package contains a Robotic Process Automation (RPA) Studio which enables yo
 
 You can run the Ai-Bots Studio by opening the [source code](https://github.com/aibotstechrepo/AiBotsStudio) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
 
-Once installed you can run the following file to launch the application:
+Once opened you can run the following startup file to launch the application:
 
     AiBotsRPA
+
+**Ai-Bots Studio require .NET 4.5 or above to run
 
 
 ## For developers
