@@ -22,10 +22,10 @@ Ai-Bots Studio require .NET 4.5 or above to run*
 
 - [Performing Keystrokes](https://github.com/amsanoop/Readme-test/blob/main/Examples/keystrokes.abt) Demonstration of entering a text in a notepad application
 - [Excel Read Data](https://github.com/amsanoop/Readme-test/blob/main/Examples/exce_read_data.abt) Reading data from an excel file. Please download the sample [excel file](https://github.com/amsanoop/Readme-test/blob/main/Examples/Excel_Read_Data.xlsx) and replace the file path in order to run this example
-- [code_viewer.py](https://github.com/willmcgugan/textual/tree/main/examples/code_viewer.py) A demonstration of a tree view which loads syntax highlighted code
-- [grid.py](https://github.com/willmcgugan/textual/tree/main/examples/calculator.py) A simple demonstration of adding widgets in a Grid layout
-- [grid_auto.py](https://github.com/willmcgugan/textual/tree/main/examples/grid_auto.py) A demonstration of automatic Grid layout
-- [simple.py](https://github.com/willmcgugan/textual/tree/main/examples/simple.py) A very simple Textual app with scrolling Markdown view
+- [While Loop](https://github.com/amsanoop/Readme-test/blob/main/Examples/while_loop.abt) A demonstration of using while loop in Ai-Bots Studio
+- [String Manipulation](https://github.com/amsanoop/Readme-test/blob/main/Examples/string_manipulation.abt) A simple demonstration of handling string activities
+- [If Conditions](https://github.com/amsanoop/Readme-test/blob/main/Examples/if_condition.abt) A demonstration of handling if conditions
+- [List Sample](https://github.com/amsanoop/Readme-test/blob/main/Examples/list_sample.abt) A very simple example which loop through an existing list
 
 
 ## Support
