@@ -15,17 +15,18 @@ Once opened you can run the following startup file to launch the application:
 
     AiBotsRPA
 
-**Ai-Bots Studio require .NET 4.5 or above to run
+Ai-Bots Studio require .NET 4.5 or above to run*
 
 
-## For developers
+## Examples
 
-Developers can use `libtesseract` [C](https://github.com/tesseract-ocr/tesseract/blob/master/include/tesseract/capi.h) or
-[C++](https://github.com/tesseract-ocr/tesseract/blob/master/include/tesseract/baseapi.h) API to build their own application.
-If you need bindings to `libtesseract` for other programming languages, please see the
-[wrapper](https://tesseract-ocr.github.io/tessdoc/AddOns.html#tesseract-wrappers) section in the AddOns documentation.
+- [Performing Keystrokes](https://github.com/amsanoop/Readme-test/blob/main/Examples/keystrokes.abt) Demonstration of entering a text in a notepad application
+- [calculator.py](https://github.com/willmcgugan/textual/tree/main/examples/calculator.py) A "clone" of the MacOS calculator using Grid layout
+- [code_viewer.py](https://github.com/willmcgugan/textual/tree/main/examples/code_viewer.py) A demonstration of a tree view which loads syntax highlighted code
+- [grid.py](https://github.com/willmcgugan/textual/tree/main/examples/calculator.py) A simple demonstration of adding widgets in a Grid layout
+- [grid_auto.py](https://github.com/willmcgugan/textual/tree/main/examples/grid_auto.py) A demonstration of automatic Grid layout
+- [simple.py](https://github.com/willmcgugan/textual/tree/main/examples/simple.py) A very simple Textual app with scrolling Markdown view
 
-Documentation of Tesseract generated from source code by doxygen can be found on [tesseract-ocr.github.io](https://tesseract-ocr.github.io/).
 
 ## Support
 
