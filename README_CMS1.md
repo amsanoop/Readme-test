@@ -18,7 +18,7 @@ This package contains a Contract management System instance which can be used fo
 
 ## Contract Management System Instance
 
-You can run the Ai-Bots Orchestrator by opening the [source code](https://github.com/aibotstechrepo/ContractManagementSystem_Instance1) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
+You can run the Ai-Bots Contract Managment System by opening the [source code](https://github.com/aibotstechrepo/ContractManagementSystem_Instance1) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
 
 Once opened you can run the following option in Microsoft Visual Studio to launch the application:
 
