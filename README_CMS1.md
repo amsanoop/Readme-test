@@ -26,6 +26,15 @@ Once opened you can run the following option in Microsoft Visual Studio to launc
 
 **NOTE** it is require to enable the IIS option in order to run the Contract Managment System
 
+## How To Use
+
+- [Role - Initiator](https://github.com/amsanoop/Readme-test/blob/main/Examples/cms%20Initiator.pdf) Demonstration of using the Contract Managment System as an Initiator
+- [Role - Approver](https://github.com/amsanoop/Readme-test/blob/main/Examples/cms%20Initiator.pdf) Demonstration of using the Contract Managment System as an Approver
+- [Role - Legal](https://github.com/amsanoop/Readme-test/blob/main/Examples/cms%20Initiator.pdf) Demonstration of using the Contract Managment System as Legal
+- [Role - Finance Approver](https://github.com/amsanoop/Readme-test/blob/main/Examples/cms%20Initiator.pdf) Demonstration of using the Contract Managment System as a Finance Approver
+- [Role - Finance Reviewer](https://github.com/amsanoop/Readme-test/blob/main/Examples/cms%20Initiator.pdf) Demonstration of using the Contract Managment System as a Finance Reiviewer
+- [Role - Admin](https://github.com/amsanoop/Readme-test/blob/main/Examples/cms%20Initiator.pdf) Demonstration of using the Contract Managment System as an Admin
+
 ## Support
 
 Please contact us at sales@aibotstech.com to provide us your valuable feedback. You can reach us for any queries related to the product customization
