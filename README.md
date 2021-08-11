@@ -41,6 +41,8 @@ Once opened you can run the following startup file to launch the application:
 
 ## Support
 
+Please contact us at sales@aibotstech.com to provide us your valuable feedback. You can reach us for any queries related to the product customization
+
 
 ## License
 
