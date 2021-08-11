@@ -2,30 +2,31 @@
 # Ai-Bots Studio
 [![GitHub license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://raw.githubusercontent.com/tesseract-ocr/tesseract/master/LICENSE)
 
-![screenshot](./imgs/studio.PNG)
+![screenshot](./imgs/orchestrator.PNG)
 
 ## About
 
-This package contains a Robotic Process Automation (RPA) Studio which enables you to build and manage software Bots which mimicks humans actions interacting with digital systems and software. Just like humans, RPA robots can do things like extracting details on a screen, complete the mouse clicks or keystrokes, navigate through systems, identify and extract data from desktop or web applications, and perform varius other actions. Once trained RPA Bots can do these tasks much faster and consistently than humans
+This package contains an RPA orchestrator which is control room that allows you to schedule and launch bots developed using Ai-Bots studio on desktop and virtual machines
 
-## Features
+Orchestrator is a key tool for your automation management. It enables you the provision to  deploy, trigger, monitor, track, and ensure the security of every Bot. You can manage everything from a web browser. 
 
-- Intelligent codeless Bot built (Drag & Drop activities)
-- Inbuilt modules for exception handling
-- Inbuilt modles for data validations 
-- UI element recognization 
-- User friendly and Modularizded coding support
-- Superior modules to handle latency and other causes
 
-## Running Aibots Studio
+## Features and Benefits
 
-You can run the Ai-Bots Studio by opening the [source code](https://github.com/aibotstechrepo/AiBotsStudio) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
+- Plays the role of an orchestrator and performs simple tasks like reading the data, data manipulation & writing in the data base.
+- Easy integration with multiple technologies in a single environment
+- Centralized console to get a single view of status of bots, transactions, performance and utilization etc.
+- Vendor independent and highly scalable for other automation opportunities. 
 
-Once opened you can run the following startup file to launch the application:
+## Running Aibots Orchestrator
 
-    AiBotsRPA
+You can run the Ai-Bots Orchestrator by opening the [source code](https://github.com/aibotstechrepo/AiBotsOrchestrator) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
 
-**NOTE** Ai-Bots Studio require .NET 4.5 or above to run
+Once opened you can run the following option in Microsoft Visual Studio to launch the application:
+
+    IIS Express
+
+**NOTE** it is require to enable the IIS option in order to run the Orchestrator
 
 
 ## Examples
