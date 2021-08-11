@@ -24,7 +24,7 @@ Once opened you can run the following startup file to launch the application:
 
     AiBotsRPA
 
-Ai-Bots Studio require .NET 4.5 or above to run**
+**NOTE** Ai-Bots Studio require .NET 4.5 or above to run
 
 
 ## Examples
@@ -36,7 +36,8 @@ Ai-Bots Studio require .NET 4.5 or above to run**
 - [If Conditions](https://github.com/amsanoop/Readme-test/blob/main/Examples/if_condition.abt) A demonstration of handling if conditions
 - [List Sample](https://github.com/amsanoop/Readme-test/blob/main/Examples/list_sample.abt) A very simple example which loop through an existing list
 
-Please download the sample files with .abt extension and open them directly in Ai-Bots Studio**
+**NOTE**: Please download the sample files with .abt extension and open them directly in Ai-Bots Studio
+
 
 ## Support
 
