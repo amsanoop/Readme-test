@@ -1,32 +1,30 @@
 
-# Ai-Bots Studio
+# Contract Management System Instance
 [![GitHub license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://raw.githubusercontent.com/tesseract-ocr/tesseract/master/LICENSE)
 
-![screenshot](./imgs/orchestrator.PNG)
+![screenshot](./imgs/cms.PNG)
 
 ## About
 
-This package contains an RPA orchestrator which is control room that allows you to schedule and launch bots developed using Ai-Bots studio on desktop and virtual machines
-
-Orchestrator is a key tool for your automation management. It enables you the provision to  deploy, trigger, monitor, track, and ensure the security of every Bot. You can manage everything from a web browser. 
+This package contains a Contract management System instance which can be used for the management of contracts made with vendors, customers, or employees. Contract management application includes negotiating the terms and conditions in contracts and ensuring compliance with the terms and conditions, as well as documenting and agreeing on any changes or amendments that may arise during its implementation or execution. It can be summarized as the process of systematically and efficiently managing contract creation, execution, and analysis for the purpose of maximizing financial and operational performance and minimizing risk. The purpose of the contract management framework is to provide a clear and standardized approach to managing and administering contracts of the respective Divisions. 
 
 
 ## Features and Benefits
 
-- Plays the role of an orchestrator and performs simple tasks like reading the data, data manipulation & writing in the data base.
-- Easy integration with multiple technologies in a single environment
-- Centralized console to get a single view of status of bots, transactions, performance and utilization etc.
-- Vendor independent and highly scalable for other automation opportunities. 
+- Template feature is available to minimize the effort of a new contract creation
+- A well defined approval workflow can be created to the ensure the quality and accuracy of the contracts 
+- Top quality report managment system to manage and maintain the audits
+- Role based access to manage the users efficiently and ensure the contract privacy  
 
-## Running Aibots Orchestrator
+## Contract Management System Instance
 
-You can run the Ai-Bots Orchestrator by opening the [source code](https://github.com/aibotstechrepo/AiBotsOrchestrator) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
+You can run the Ai-Bots Orchestrator by opening the [source code](https://github.com/aibotstechrepo/ContractManagementSystem_Instance1) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
 
 Once opened you can run the following option in Microsoft Visual Studio to launch the application:
 
     IIS Express
 
-**NOTE** it is require to enable the IIS option in order to run the Orchestrator
+**NOTE** it is require to enable the IIS option in order to run the Contract Managment System
 
 ## Support
 
