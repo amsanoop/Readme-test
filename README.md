@@ -7,6 +7,15 @@
 
 This package contains a Robotic Process Automation (RPA) Studio which enables you to build and manage software Bots which mimicks humans actions interacting with digital systems and software. Just like humans, RPA robots can do things like extracting details on a screen, complete the mouse clicks or keystrokes, navigate through systems, identify and extract data from desktop or web applications, and perform varius other actions. Once trained RPA Bots can do these tasks much faster and consistently than humans
 
+## Features
+
+- Intelligent codeless Bot built (Drag & Drop activities)
+- Inbuilt modules for exception handling
+- Inbuilt modles for data validations 
+- UI element recognization 
+- User friendly and Modularizded coding support
+- Superior modules to handle latency and other causes
+
 ## Running Aibots Studio
 
 You can run the Ai-Bots Studio by opening the [source code](https://github.com/aibotstechrepo/AiBotsStudio) in a compatible IDE, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/):
