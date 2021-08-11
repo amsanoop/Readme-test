@@ -28,19 +28,6 @@ Once opened you can run the following option in Microsoft Visual Studio to launc
 
 **NOTE** it is require to enable the IIS option in order to run the Orchestrator
 
-
-## Examples
-
-- [Performing Keystrokes](https://github.com/amsanoop/Readme-test/blob/main/Examples/keystrokes.abt) Demonstration of entering a text in a notepad application
-- [Excel Read Data](https://github.com/amsanoop/Readme-test/blob/main/Examples/exce_read_data.abt) Reading data from an excel file. Please download the sample [excel file](https://github.com/amsanoop/Readme-test/blob/main/Examples/Excel_Read_Data.xlsx) and replace the file path in order to run this example
-- [While Loop](https://github.com/amsanoop/Readme-test/blob/main/Examples/while_loop.abt) A demonstration of using while loop in Ai-Bots Studio
-- [String Manipulation](https://github.com/amsanoop/Readme-test/blob/main/Examples/string_manipulation.abt) A simple demonstration of handling string activities
-- [If Conditions](https://github.com/amsanoop/Readme-test/blob/main/Examples/if_condition.abt) A demonstration of handling if conditions
-- [List Sample](https://github.com/amsanoop/Readme-test/blob/main/Examples/list_sample.abt) A very simple example which loop through an existing list
-
-**NOTE**: Please download the sample files with .abt extension and open them directly in Ai-Bots Studio
-
-
 ## Support
 
 Please contact us at sales@aibotstech.com to provide us your valuable feedback. You can reach us for any queries related to the product customization
