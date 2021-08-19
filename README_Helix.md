@@ -10,9 +10,16 @@ This package contains an Optical Character Recognition Software which allows you
 ## Features and Benefits
 
 - Advanced image text detection
+- Image in Image search technique 
+- Supports mutiple output formats
 - Label detection 
 - Document text detection
 - Flexible to integrate with any existing system/tools 
+
+## OCR Architecture
+
+![screenshot](./imgs/OCRARC.PNG)
+
 
 ## Running Helix OCR
 
