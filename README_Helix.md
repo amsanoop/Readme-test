@@ -5,7 +5,9 @@
 
 ## About
 
-This package contains an Optical Character Recognition Software which allows you to extract information from images and handwritten documents. 
+This package contains an Optical Character Recognition Software which allows you to extract information from images and handwritten documents. Helix OCR is a Machine learning enabled enterpise grade platfrom that allows users/companies to automate their business process through AI based cognitive process automation.
+
+Helix OCR leverages advanced machine learning algorithms and natural language processing algorithms to work on unstructured text documents and companies can cover a lager portion of their automation needs without spending months on building business cases or spending time on paperwork to run a pilot.
 
 ## Features and Benefits
 
@@ -14,6 +16,7 @@ This package contains an Optical Character Recognition Software which allows you
 - Supports mutiple output formats
 - Label detection 
 - Document text detection
+- Supports cloud and on-premise deployment
 - Flexible to integrate with any existing system/tools 
 
 ## OCR Architecture
