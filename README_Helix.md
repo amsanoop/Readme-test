@@ -17,6 +17,7 @@ Helix OCR leverages advanced machine learning algorithms and natural language pr
 - Label detection 
 - Document text detection
 - Supports cloud and on-premise deployment
+- Easily Scalable
 - Flexible to integrate with any existing system/tools 
 
 ## OCR Architecture
